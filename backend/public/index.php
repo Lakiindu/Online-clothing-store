@@ -30,6 +30,15 @@ require_once __DIR__ . '/../src/routes/auth.php';
 require_once __DIR__ . '/../src/routes/me.php';
 require_once __DIR__ . '/../src/routes/categories.php';
 require_once __DIR__ . '/../src/routes/admin_categories.php';
+require_once __DIR__ . '/../src/routes/products.php';
+require_once __DIR__ . '/../src/routes/cart.php';
+require_once __DIR__ . '/../src/routes/checkout.php';
+require_once __DIR__ . '/../src/routes/orders.php';
+require_once __DIR__ . '/../src/routes/delivery_assign.php';
+require_once __DIR__ . '/../src/routes/delivery_orders.php';
+require_once __DIR__ . '/../src/routes/delivery_update.php';
+require_once __DIR__ . '/../src/routes/orders_list.php';
+require_once __DIR__ . '/../src/routes/cart_get.php';
 
 // 6) Basic routes
 if ($uri === '/api/health' && $method === 'GET') {
